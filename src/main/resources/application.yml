@@ -1,1 +1,12 @@
-spring.profiles.active: local
+spring:
+  profiles.active: local
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: put_in_local_profile_config
+            clientSecret: put_in_local_profile_config
+          google:
+            clientId: put_in_local_profile_config
+            clientSecret: put_in_local_profile_config
